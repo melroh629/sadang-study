@@ -1,0 +1,1 @@
+console.log(1),console.log("a is less than b");
