@@ -6,7 +6,15 @@
       "jsx": true
     }
   },
-  "plugins": ["react", "import", "node", "promise", "standard", "react-hooks", "prettier"],
+  "plugins": [
+    "react",
+    "import",
+    "node",
+    "promise",
+    "standard",
+    "react-hooks",
+    "prettier"
+  ],
   "settings": {
     "react": {
       "createClass": "createReactClass",
@@ -26,7 +34,7 @@
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "no-console": "warn",
+    "no-console": "error",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "prettier/prettier": "error"
